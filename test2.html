@@ -1,0 +1,55 @@
+<html>
+    <script>
+        alert("Well well, look who's here ! One of the best people out there !");
+        alert("Get ready, young lady ! Pop Quiz !");
+        var check1=0;
+        var check2=0;
+        var check3=0;
+        var input1= prompt("What's your favorite color?")
+            if(input1=="blue"||input1=="Blue"||input1=="BLUE")
+            {
+                alert("Well done! On to the next question !");
+                check1=1;
+            }
+            else{
+                alert("Sorry, but that's incorrect. Try again.");
+                var check1=0;
+                var check2=0;
+                var check3=0;
+                location.reload();
+            }
+            var input2= prompt("How many siblings do you have ?")
+            if(input2=="two"||input2=="Two"||input2=="TWO"||input2=="2")
+            {
+                alert("Awesome! Final Round comes next !");
+                check1=1;
+                check2=1;
+            }
+            else{
+                alert("Sorry, but that's incorrect. Try again.");
+                var check1=0;
+                var check2=0;
+                var check3=0;
+                location.reload();
+            }
+            var input3= prompt("What's your parents' anniversary date?")
+            if(input3=="25 Feb"||input3=="25 February"||input3=="25th Feb"||input3=="25th February"||input3=="25TH FEBRUARY"||input3=="25 FEBRUARY"||input3=="25/02"||input3=="25.02"||input3=="25 feb"||input3=="25th feb")
+            {
+                alert("Bullseye! Time to claim your gift!");
+                check1=1;
+                check2=1;
+                check3=1;
+            }
+            else{
+                alert("Sorry, but that's incorrect. Try again.");
+                var check1=0;
+                var check2=0;
+                var check3=0;
+                location.reload();
+            }
+            if(check1==1&&check2==1&&check3==1)
+            {
+                    window.open("https://docs.google.com/presentation/d/1-pRi7dz-CAxgMnnNg4MnV0CyAuaUeZGzQnsB1VBPLEA/edit?usp=sharing","_self");
+            }
+    </script>
+</html>
